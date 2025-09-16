@@ -1,1 +1,86 @@
-.
+string productos;
+Console.WriteLine("Eliga una opcion: SNACKS || BEBIDAS || DULCES");
+productos = Console.ReadLine();
+
+switch (productos)
+{
+    case "SNACKS":
+        Console.WriteLine("\n1.- INKA CHIPS || $2.00");
+        Console.WriteLine("2.- CUATES || $1.20");
+        Console.WriteLine("3.- CHIZITOS || $1.00");
+        Console.WriteLine("\nElija el producto a cancelar: (1 - 2 - 3) ");
+        productos = Console.ReadLine();
+        if (productos == "1")
+        {
+            Console.WriteLine("Entregando snacks... ");
+        }
+        else
+        {
+            if (productos == "2")
+            {
+                Console.WriteLine("Entregando snacks...");
+            }
+            else
+            {
+            if (productos == "3")
+            {
+                Console.WriteLine("Entregando snacks...");
+            }
+            }
+        }
+
+        break;
+
+    case "BEBIDAS":
+        Console.WriteLine("\n1.- CIELO || $1.20");
+        Console.WriteLine("2.- COCA COLA || $2.00");
+        Console.WriteLine("3.- FRUGOS || $1.80");
+        Console.WriteLine("\nElija el producto a cancelar: (1 - 2 - 3) ");
+        productos = Console.ReadLine();
+        if (productos == "1")
+        {
+            Console.WriteLine("Entregando bebida... ");
+        }
+        else
+        {
+            if (productos == "2")
+            {
+                Console.WriteLine("Entregando bebida...");
+            }
+            else
+            {
+                if (productos == "3")
+                {
+                    Console.WriteLine("Entregando bebida...");
+                }
+            }
+        }
+
+        break;
+
+    case "DULCES":
+        Console.WriteLine("\n1.- SUBLIME || $1.80");
+        Console.WriteLine("2.- NITO || $1.50");
+        Console.WriteLine("3.- TRIDENT || $1.20");
+        Console.WriteLine("\nElija el producto a cancelar: (1 - 2 - 3) ");
+        productos = Console.ReadLine();
+        if (productos == "1")
+        {
+            Console.WriteLine("Entregando dulce... ");
+        }
+        else
+        {
+            if (productos == "2")
+            {
+                Console.WriteLine("Entregando dulce...");
+            }
+            else
+            {
+                if (productos == "3")
+                {
+                    Console.WriteLine("Entregando dulce...");
+                }
+            }
+        }
+
+        break;
